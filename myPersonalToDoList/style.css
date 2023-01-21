@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color:beige;
+}
+
+#myVideo { 
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    z-index: -100;
+}
+
+
+.header, .container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Solitreo', cursive;
+}
+
+.inputField {
+    padding: 15px;
+    width: 30%;
+    
+}
+
+.btn {
+    padding: 15px;
+    background: #1B2430;
+
+}
+
+
+.toDoAdded {
+    list-style-type: none;
+    height: 50px;
+    width: 50% ;
+    text-align: center;
+    font-size: 20px;
+    background: #51557E;
+    color: white;
+    
+
+}
+
+.toDoContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toDoCompleted {
+    background: #816797;
+    text-decoration: line-through;
+    transition: all 1s ease;
+}
+
+
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 25px;
+
+    }
+
+
+    .toDoAdded {
+        list-style-type: none;
+        height: 50px;
+        width: 65% ;
+        text-align: center;
+        font-size: 20px;
+        background: #51557E;
+        color: white;
+        
+
+}
+
+.toDoCompleted {
+    background: #946bb8;
+    text-decoration: line-through;
+    transition: all 1s ease;
+}
+
+#myVideo { 
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    z-index: -100;
+}
+
+}
