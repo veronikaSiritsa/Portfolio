@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url(forest.avif);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: #9ED2C6;
+}
+
+
+.birthdays {
+    background-color: rgba(251, 248,249,0.55);
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*background-color: rgba(251, 248,249,0.82);*/
+
+h4 {
+   font-size: 21px;
+   font-family: 'Lora', serif;
+}
+
+h3{
+    font-family: 'Lora', serif;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
+
+.locationBtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    background-color: rgba(251, 248,249,0.55);
+    border: 1px solid black;
+    height: 60px;
+    width: 250px;
+    font-family: 'Lora', serif;
+    margin-top: 110px;
+    font-size: 15px;
+    
+}
+
+@media all and (max-width:500px) {
+    h1{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    .btn { 
+        font-size:15px;
+        margin-top: 90px;
+        height: 45px;
+    width: 200px;
+    padding: 5px;
+    }
+
+    .birthdays {
+        background-color: rgba(251, 248,249,0.55);
+        border: 2px solid black;
+        height: 130px;
+        width: 100px;
+        margin-top: 15px;
+    
+    }
+
+
+    .container {
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+    body {
+        background-size: cover;
+        background-repeat:repeat;
+    }
+
+    
+}
+
+
+.play {
+    width: 100px;
+    height: 100px;
+    background-image: url(icon.png);
+    background-size: contain;
+}
+
+.pause {
+    background-image: url(pause.png);
+}
