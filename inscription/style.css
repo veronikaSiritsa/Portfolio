@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+
+#par {
+    color: white;
+    font-size: 100px;
+    margin-top: 300px;
+    margin-left: 50px;
+}
